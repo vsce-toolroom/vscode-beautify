@@ -1,14 +1,14 @@
-# js-beautify for VS Code
+# `js-beautify` for VS Code
 
-[![Build Status](https://api.travis-ci.org/HookyQR/VSCodeBeautify.svg?branch=master)](https://travis-ci.org/HookyQR/VSCodeBeautify) [![Build status](https://ci.appveyor.com/api/projects/status/mu73cgat3r1t0weu/branch/master?svg=true)](https://ci.appveyor.com/project/HookyQR/vscodebeautify) [![Licence](https://img.shields.io/github/license/HookyQR/VSCodeBeautify.svg)](https://github.com/HookyQR/VSCodeBeautify)
-[![VS Code Marketplace](https://vsmarketplacebadge.apphb.com/version-short/HookyQR.beautify.svg) ![Rating](https://vsmarketplacebadge.apphb.com/rating-short/HookyQR.beautify.svg) ![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/HookyQR.beautify.svg) ![Installs](https://vsmarketplacebadge.apphb.com/installs-short/HookyQR.beautify.svg)](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
-[![Donate](https://img.shields.io/badge/donate-paypal-brightgreen.svg)](https://paypal.me/HookyQR)
+<p align="center"><img src="https://github.com/vsce-toolroom/vscode-beautify/raw/ece4123982ac1d695eaaaf2eb8187195f5a0830c/icon.png" height="128" /></p>
+
+<p align="center"><a href="https://github.com/vsce-toolroom/vscode-beautify/releases" target="_blank"><img src="https://img.shields.io/github/v/release/vsce-toolroom/vscode-beautify.svg?style=flat-square&label=Release&logo=github&logoColor=cacde2&labelColor=2c2c32&color=006daf" /></a> <a href="https://marketplace.visualstudio.com/items?itemName=vsce-toolroom.vscode-beautify" target="_blank"><img src="https://img.shields.io/visual-studio-marketplace/i/vsce-toolroom.vscode-beautify?style=flat-square&label=Installations&logo=visualstudiocode&logoColor=cacde2&labelColor=2c2c32&color=006daf" /></a> <a href="https://github.com/vsce-toolroom/vscode-beautify/pipelines" target="_blank"><img src="https://img.shields.io/github/actions/workflow/status/vsce-toolroom/vscode-beautify/CI.svg?style=flat-square&label=CI&logo=github&logoColor=cacde2&labelColor=2c2c32&color=006daf" /></a> <a href="https://code.visualstudio.com/updates/v1_39" target="_blank"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Visual+Studio+Code&message=>=v1.39.0&logo=visualstudiocode&labelColor=2c2c32&color=006daf" /></a></p>
 
 Beautify `javascript`, `JSON`, `CSS`, `Sass`, and `HTML` in Visual Studio Code.
 
 VS Code uses js-beautify internally, but it lacks the ability to modify the style you wish to use. This extension enables running [js-beautify](http://jsbeautifier.org/) in VS Code, _AND_ honouring any `.jsbeautifyrc` file in the open file's path tree to load *your* code styling. Run with  **F1** `Beautify` (to beautify a selection) or **F1** `Beautify file`.
 
-For help on the settings in the `.jsbeautifyrc` see [Settings.md](https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md)
+For help on the settings in the `.jsbeautifyrc` see [SETTINGS.md](https://github.com/HookyQR/VSCodeBeautify/blob/master/SETTINGS.md).
 
 ## How we determine what settings to use
 
