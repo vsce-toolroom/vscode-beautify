@@ -1,8 +1,8 @@
 'use strict';
-const vscode = require('vscode'),
-  path = require('path'),
-  os = require('os'),
-  editorconfig = require('editorconfig');
+const vscode = require('vscode');
+const path = require('path');
+const os = require('os');
+const editorconfig = require('editorconfig');
 const dropComments = inText => inText
   .replace(/\/\*.*\*\//g, '')
   .replace(/("(?:[^\\"\r\n]|\\")*?")|(?:\/\/.*(?=[\r\n]|$))/g, (_, str) => str || '');

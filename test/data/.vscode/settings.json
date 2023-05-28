@@ -1,7 +1,7 @@
 {
 	"editor.detectIndentation": false,
-	"telemetry.enableCrashReporter": false,
 	"telemetry.enableTelemetry": false,
+	"telemetry.telemetryLevel": "off",
 	"css.validate": false,
 	"scss.validate": false,
   "javascript.validate.enable": false,

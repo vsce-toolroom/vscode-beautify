@@ -1,4 +1,4 @@
 {
-  "javascript.implicitProjectConfig.checkJs": true,
-  "javascript.implicitProjectConfig.experimentalDecorators": true
+  "js.implicitProjectConfig.checkJs": true,
+  "js.implicitProjectConfig.experimentalDecorators": true
 }

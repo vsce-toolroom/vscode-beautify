@@ -13,7 +13,7 @@
     "Formatters"
   ],
   "activationEvents": [
-    "*"
+    "onStartupFinished"
   ],
   "icon": "icon.png",
   "galleryBanner": {

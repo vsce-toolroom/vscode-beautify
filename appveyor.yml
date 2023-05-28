@@ -11,7 +11,7 @@ platform:
   - x86
   - x64
 
-build: off
+build: false
 
 test_script:
   - npm test

@@ -5,21 +5,21 @@ const vscode = require('vscode'),
   minimatch = require('minimatch'),
   path = require('path');
 const dumpError = e => {
-  if (0 && e) {
+  if (!1 && e) {
     // console.log('beautify err:', e);
   }
 };
 
 const getBeautifyType = () => {
   return vscode.window.showQuickPick(
-      [
-        { label: 'JS', description: 'Does JavaScript and JSON' },
-        { label: 'CSS', description: 'Does CSS and SCSS' },
-        { label: 'HTML' }
-      ], {
-        matchOnDescription: true,
-        placeHolder: 'Couldn\'t determine type to beautify, please choose.'
-      })
+    [
+      { label: 'JS', description: 'Does JavaScript and JSON' },
+      { label: 'CSS', description: 'Does CSS and SCSS' },
+      { label: 'HTML' }
+    ], {
+      matchOnDescription: true,
+      placeHolder: 'Couldn\'t determine type to beautify, please choose.'
+    })
     .then(choice => {
       if (!choice || !choice.label) throw 'no beautify type selected';
       return choice.label.toLowerCase();
@@ -134,8 +134,8 @@ class Formatters {
       if (css) cfg.css = { ext: css };
       if (html) cfg.html = { ext: html };
       vscode.window.showInformationMessage(
-          '`beautify.*Files` setting is deprecated. please use `beautify.language` instead. Open settings ->',
-          'Global', 'Workspace')
+        '`beautify.*Files` setting is deprecated. please use `beautify.language` instead. Open settings ->',
+        'Global', 'Workspace')
         .then(open => {
           if (open) vscode.commands.executeCommand(`workbench.action.open${open}Settings`);
         }, dumpError);
@@ -152,17 +152,17 @@ class Formatters {
         for (let b in cfg[a]) {
           let adder;
           switch (b) {
-            case 'type':
-              adder = cfg[a][b].map(language => ({ language, scheme: 'file' }));
-              break;
-            case 'ext':
-              adder = [{ pattern: `**/*.{${cfg[a][b].join(',')}}`, scheme: 'file' }];
-              break;
-            case 'filename':
-              adder = [{ pattern: `**/{${cfg[a][b].join(',')}}`, scheme: 'file' }];
-              break;
-            default:
-              continue;
+          case 'type':
+            adder = cfg[a][b].map(language => ({ language, scheme: 'file' }));
+            break;
+          case 'ext':
+            adder = [{ pattern: `**/*.{${cfg[a][b].join(',')}}`, scheme: 'file' }];
+            break;
+          case 'filename':
+            adder = [{ pattern: `**/{${cfg[a][b].join(',')}}`, scheme: 'file' }];
+            break;
+          default:
+            continue;
           }
           selector = selector.concat(adder);
         }
