@@ -212,7 +212,7 @@
   },
   "dependencies": {
     "editorconfig": "0.15.0",
-    "js-beautify": "^1.9.0",
+    "js-beautify": "^1.14.7",
     "minimatch": "^3.0.4"
   },
   "devDependencies": {
