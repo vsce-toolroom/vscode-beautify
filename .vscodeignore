@@ -1,5 +1,7 @@
 test
 .git*
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
 .jsbeautifyrc
 .jshintrc
 .travis.yml
