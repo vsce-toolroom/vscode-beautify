@@ -1,21 +1,21 @@
 <svg version="1.0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <g transform="matrix(1.2632 0 0 1.2632 -3.1579 -3.7895)">
-<rect x="6" y="3" width="1" height="1" rx=".5" ry=".5" fill="#ffca28"/>
-<rect x="11" y="3" width="2" height="1" rx=".5" ry=".5" fill="#ef6c00"/>
-<rect x="17" y="3" width="1" height="1" rx=".5" ry=".5" fill="#ffca28"/>
-<rect x="6" y="5" width="3" height="1" rx=".5" ry=".5" fill="#ffca28"/>
-<rect x="10" y="5" width="4" height="1" rx=".5" ry=".5" fill="#ef6c00"/>
-<rect x="15" y="5" width="3" height="1" rx=".5" ry=".5" fill="#ffca28"/>
-<rect x="6" y="7" width="4" height="1" rx=".5" ry=".5" fill="#ffca28"/>
-<rect x="11" y="7" width="2" height="1" rx=".5" ry=".5" fill="#ef6c00"/>
-<rect x="14" y="7" width="4" height="1" rx=".5" ry=".5" fill="#ffca28"/>
-<rect x="6" y="9" width="4" height="1" rx=".5" ry=".5" fill="#ffca28"/>
-<rect x="11" y="9" width="2" height="1" rx=".5" ry=".5" fill="#ef6c00"/>
-<rect x="14" y="9" width="4" height="1" rx=".5" ry=".5" fill="#ffca28"/>
-<rect x="7" y="11" width="10" height="1" rx=".5" ry=".5" fill="#ffca28"/>
-<rect x="3" y="13" width="1" height="1" rx=".5" ry=".5" fill="#00c853"/>
-<rect x="9" y="13" width="6" height="1" rx=".5" ry=".5" fill="#ffca28"/>
-<g fill="#00c853">
+<rect x="6" y="3" width="1" height="1" rx=".5" ry=".5" fill="#00B0FF"/>
+<rect x="11" y="3" width="2" height="1" rx=".5" ry=".5" fill="#FF7043"/>
+<rect x="17" y="3" width="1" height="1" rx=".5" ry=".5" fill="#00B0FF"/>
+<rect x="6" y="5" width="3" height="1" rx=".5" ry=".5" fill="#00B0FF"/>
+<rect x="10" y="5" width="4" height="1" rx=".5" ry=".5" fill="#FF7043"/>
+<rect x="15" y="5" width="3" height="1" rx=".5" ry=".5" fill="#00B0FF"/>
+<rect x="6" y="7" width="4" height="1" rx=".5" ry=".5" fill="#00B0FF"/>
+<rect x="11" y="7" width="2" height="1" rx=".5" ry=".5" fill="#FF7043"/>
+<rect x="14" y="7" width="4" height="1" rx=".5" ry=".5" fill="#00B0FF"/>
+<rect x="6" y="9" width="4" height="1" rx=".5" ry=".5" fill="#00B0FF"/>
+<rect x="11" y="9" width="2" height="1" rx=".5" ry=".5" fill="#FF7043"/>
+<rect x="14" y="9" width="4" height="1" rx=".5" ry=".5" fill="#00B0FF"/>
+<rect x="7" y="11" width="10" height="1" rx=".5" ry=".5" fill="#00B0FF"/>
+<rect x="3" y="13" width="1" height="1" rx=".5" ry=".5" fill="#00bfa5"/>
+<rect x="9" y="13" width="6" height="1" rx=".5" ry=".5" fill="#00B0FF"/>
+<g fill="#00bfa5">
 <rect x="20" y="13" width="1" height="1" rx=".5" ry=".5"/>
 <rect x="3" y="15" width="4" height="1" rx=".5" ry=".5"/>
 <rect x="11" y="15" width="2" height="1" rx=".5" ry=".5"/>
