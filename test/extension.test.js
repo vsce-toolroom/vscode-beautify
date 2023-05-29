@@ -13,7 +13,7 @@ const fillEditor = (text, edits) => edits.replace(
 const openFileWithInput = async (extension) => await createEditor(extension);
 
 const beautified = async editor => {
-  await vscode.commands.executeCommand('HookyQR.beautifyFile');
+  await vscode.commands.executeCommand('beautify.beautifyFile');
   return editor.document.getText();
 };
 
@@ -33,7 +33,7 @@ const beautifiedFirstLine = async editor => {
     amount: 1,
     select: true
   });
-  await vscode.commands.executeCommand('HookyQR.beautify');
+  await vscode.commands.executeCommand('beautify.beautifySelection');
   return editor.document.getText();
 };
 

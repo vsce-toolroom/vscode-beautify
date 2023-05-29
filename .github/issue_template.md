@@ -1,7 +1,7 @@
 ## Description
 
 - **Given:** I'm using the `.jsbeautifyrc` co
-- **When:** I format javascript file with `HookyQR.beautifyFile` command
+- **When:** I format javascript file with `vsce-toolroom.beautifyFile` command
 - **Then:** The output is...
 
 Input code:

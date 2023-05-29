@@ -115,7 +115,7 @@ Use the following to embed a beautify shortcut in keybindings.json. Replace with
 ```javascript
 {
   "key": "cmd+b",
-  "command": "HookyQR.beautify",
+  "command": "vsce-toolroom.beautify",
   "when": "editorFocus"
 }
 ```

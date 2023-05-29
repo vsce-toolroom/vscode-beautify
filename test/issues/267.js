@@ -1,6 +1,6 @@
 module.exports = {
   extension: 'js',
-  command: 'HookyQR.beautifyFile',
+  command: 'beautify.beautifyFile',
   beautifySetting: {
   },
   input: `{

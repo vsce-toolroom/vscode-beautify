@@ -1,6 +1,6 @@
 module.exports = {
   extension: 'scss',
-  command: 'HookyQR.beautifyFile',
+  command: 'beautify.beautifyFile',
   beautifySetting: {
     newline_between_rules: true,
     preserve_newlines: true,

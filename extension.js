@@ -1,9 +1,9 @@
 'use strict';
-const vscode = require('vscode'),
-  beautify = require('js-beautify'),
-  options = require('./options'),
-  minimatch = require('minimatch'),
-  path = require('path');
+const vscode = require('vscode');
+const beautify = require('js-beautify');
+const options = require('./options');
+const minimatch = require('minimatch');
+const path = require('path');
 const dumpError = e => {
   if (!1 && e) {
     // console.log('beautify err:', e);
@@ -236,8 +236,8 @@ const formatActiveDocument = ranged => {
 //register on activation
 exports.activate = (context) => {
   let sub = context.subscriptions;
-  sub.push(vscode.commands.registerCommand('HookyQR.beautify', formatActiveDocument.bind(0, true)));
-  sub.push(vscode.commands.registerCommand('HookyQR.beautifyFile', formatActiveDocument.bind(0, false)));
+  sub.push(vscode.commands.registerCommand('beautify.beautifySelection', formatActiveDocument.bind(0, true)));
+  sub.push(vscode.commands.registerCommand('beautify.beautifyFile', formatActiveDocument.bind(0, false)));
   sub.push(vscode.workspace.onDidChangeConfiguration(formatters.configure.bind(formatters)));
   sub.push(vscode.workspace.onDidOpenTextDocument(formatters.onFileOpen.bind(formatters)));
 };
