@@ -1,6 +1,6 @@
 ## Description
 
-- **Given:** I'm using the `.jsbeautifyrc` co
+- **Given:** I'm using the `.jsbeautifyrc` configuration below,
 - **When:** I format javascript file with `beautify.beautifyFile` command
 - **Then:** The output is...
 
@@ -23,13 +23,11 @@ _provide intended or defective output from beautification_
 
 Provide the settings you use: 
 (VS Code workspace and user settings, .jsbeautifyrc, .editorconfig)
-eg.:
-#']/[;pl.h7juygkiplo0=-]';pl#']VS Code:
+eg. VS Code:
 
 ```javascript
 {
-	"editor.formatOn
-	']/lokijh ugyvftjuoi,pl-[;']/#Save": true
+	"editor.formatOnSave": true
 }
 ```
 .jsbeautifyrc
