@@ -97,7 +97,7 @@
 * Put back redundant call on save until the textEdit fix is in VS Code (hopefully 1.8.0)
 * Remove ***onSaveIgnore*** setting as it won't work with the VS Code formatOnSave setting
 * Remove redundant format call on save
-* Add [Settings.md](https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md) help file
+* Add [SETTINGS.md](https://github.com/HookyQR/VSCodeBeautify/blob/master/SETTINGS.md) help file
 
 ### 0.5.0 - 0.5.5: 16 Nov 2016
 * Change setting retrieval mechanism. Fixes [#70 Compatibility with 1.8 Insiders](https://github.com/HookyQR/VSCodeBeautify/issues/70)

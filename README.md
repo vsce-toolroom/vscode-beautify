@@ -1,4 +1,4 @@
-# `js-beautify` for VS Code
+# `vscode-beautify`
 
 <p align="center"><img src="https://github.com/vsce-toolroom/vscode-beautify/raw/ece4123982ac1d695eaaaf2eb8187195f5a0830c/icon.png" height="128" /></p>
 
@@ -6,7 +6,7 @@
 
 Beautify `javascript`, `JSON`, `CSS`, `Sass`, and `HTML` in Visual Studio Code.
 
-VS Code uses js-beautify internally, but it lacks the ability to modify the style you wish to use. This extension enables running [js-beautify](http://jsbeautifier.org/) in VS Code, _AND_ honouring any `.jsbeautifyrc` file in the open file's path tree to load *your* code styling. Run with  **F1** `Beautify` (to beautify a selection) or **F1** `Beautify file`.
+VS Code uses `js-beautify` internally, but it lacks the ability to modify the style you wish to use. This extension enables running [`js-beautify`](http://jsbeautifier.org/) in VS Code, _AND_ honouring any `.jsbeautifyrc` file in the open file's path tree to load *your* code styling. Run with  **F1** `Beautify` (to beautify a selection) or **F1** `Beautify file`.
 
 For help on the settings in the `.jsbeautifyrc` see [SETTINGS.md](https://github.com/HookyQR/VSCodeBeautify/blob/master/SETTINGS.md).
 
@@ -115,7 +115,7 @@ Use the following to embed a beautify shortcut in keybindings.json. Replace with
 ```javascript
 {
   "key": "cmd+b",
-  "command": "vsce-toolroom.beautify",
+  "command": "beautify.beautifySelection",
   "when": "editorFocus"
 }
 ```
