@@ -2,7 +2,7 @@
   "name": "beautify",
   "displayName": "Beautify",
   "description": "Beautify code in place for VS Code",
-  "version": "1.4.11",
+  "version": "1.5.11",
   "publisher": "vsce-toolroom",
   "engines": {
     "vscode": "^1.22.0"
