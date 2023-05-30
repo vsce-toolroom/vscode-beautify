@@ -1,3 +1,10 @@
+### 1.5.12: 30 May 2023
+* Adoption of extension via `vsce-toolroom` community initiative
+* Update to version 1.14.7 of `js-beautify`
+* Update test stack to `@vscode` namespace
+* Correct documentation typo in `files.insertFinalNewline` - [HookyQR#345](https://github.com/HookyQR/VSCodeBeautify/pull/345)
+* Add support for web/browser runtime - [HookyQR#400](https://github.com/HookyQR/VSCodeBeautify/pull/400)
+
 ### 1.4.10: 20 Mar 2019
 * Update to version 1.9.0 of `js-beautify`
 
