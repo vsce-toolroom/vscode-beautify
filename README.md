@@ -1,4 +1,4 @@
-# `vscode-beautify`
+# JS-Beautify for VS Code
 
 <p align="center"><img src="https://github.com/vsce-toolroom/vscode-beautify/raw/a3116d1156e6eb529c30f39d7f0007e65e645e27/icon.png" height="128" /></p>
 

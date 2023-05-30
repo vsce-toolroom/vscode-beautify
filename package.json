@@ -1,8 +1,8 @@
 {
-  "name": "beautify",
-  "displayName": "Beautify",
+  "name": "vscode-beautify",
+  "displayName": "JS-Beautify for VS Code",
   "description": "Beautify code in place for VS Code",
-  "version": "1.5.11",
+  "version": "1.5.12",
   "publisher": "vsce-toolroom",
   "engines": {
     "vscode": "^1.22.0"
