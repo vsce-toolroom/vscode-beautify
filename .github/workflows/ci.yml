@@ -4,7 +4,7 @@ concurrency: vscode_environment
 
 on:
   push:
-    branches: [ release-candidate/* ]
+    branches: [ release-candidate/*, main ]
   pull_request:
     branches: [ main, release-candidate/* ]
 
