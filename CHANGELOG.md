@@ -1,3 +1,6 @@
+### 1.5.14: 21 May 2024
+* Fix `.jsbeautify` support by querying filesystem path URLs with the correct scheme.
+
 ### 1.5.12: 30 May 2023
 * Adoption of extension via `vsce-toolroom` community initiative
 * Update to version 1.14.7 of `js-beautify`
